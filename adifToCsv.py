@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
 import re
 import requests
 import pandas as pd
@@ -77,16 +74,3 @@ csvData = logToCsv(log, headers)
 
 #do something with csvData. Write to file, load into DB, copy to web site, etc
 print(csvData)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
